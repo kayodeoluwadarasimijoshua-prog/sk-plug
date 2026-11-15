@@ -1,0 +1,3 @@
+-r requirements-dev.txt
+# Includes a temporary local PostgreSQL server for cross-backend accounting tests.
+pgserver==0.1.4

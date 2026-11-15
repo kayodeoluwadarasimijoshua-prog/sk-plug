@@ -1,0 +1,43 @@
+{
+  "storeId": "sk-plug",
+  "businessName": "SK PLUG",
+  "tagline": "Upgrade your everyday.",
+  "currency": "NGN",
+  "phone": "",
+  "whatsapp": "",
+  "email": "",
+  "address": "Ikeja, Lagos \u00b7 Ile-Ife, Nigeria",
+  "logo": "",
+  "favicon": "",
+  "layout": "electronics",
+  "orderPrefix": "SK",
+  "theme": {
+    "primary": "#d9ae61",
+    "secondary": "#141210",
+    "accent": "#79563a"
+  },
+  "features": {
+    "whatsappCheckout": true,
+    "bankTransfer": false,
+    "onlinePayment": false,
+    "instalments": false,
+    "delivery": true,
+    "pickup": true
+  },
+  "categories": [
+    "Smartphones",
+    "Laptops",
+    "Accessories",
+    "Smartwatches",
+    "Other gadgets"
+  ],
+  "about": "SK PLUG is an electronics store serving Ikeja, Lagos and Ile-Ife, Nigeria. This storefront is a demonstration pending client approval and real inventory.",
+  "privacy": "DRAFT \u2014 SK PLUG must approve its privacy notice and contact details before launch.",
+  "returns": "DRAFT \u2014 Confirm warranty, returns and exchange terms with SK PLUG before launch.",
+  "deliveryPolicy": "DRAFT \u2014 Pickup and delivery availability, fees and times require client confirmation.",
+  "bank": {
+    "name": "",
+    "accountName": "",
+    "accountNumber": ""
+  }
+}
