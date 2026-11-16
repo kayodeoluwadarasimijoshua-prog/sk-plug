@@ -160,11 +160,11 @@ with tempfile.TemporaryDirectory() as directory:
                 "Test delivery agreement"
             )
             page.get_by_role("button", name="Save agreement", exact=True).click()
-            expect(page.locator("#toast")).to_contain_text("saved")
+            expect(page.locator("#toast")).to_have_text("Agreement saved.")
             page.get_by_text("Reserve stock for this order", exact=True).click()
             page.get_by_label("Quantity to hold", exact=True).fill("1")
             page.get_by_role("button", name="Update reservation", exact=True).click()
-            expect(page.locator("#toast")).to_contain_text("updated")
+            expect(page.locator("#toast")).to_have_text("Reservation updated.")
             total = page.evaluate("window.order.total")
             page.get_by_label("Product amount (₦)", exact=True).fill(str(total / 100))
             page.get_by_label("Delivery amount (₦)", exact=True).fill("1200")
